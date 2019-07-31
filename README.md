@@ -23,4 +23,6 @@ The installation procedure is fairly simple. Note that this guide is for motherb
 4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete 'project.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
 5) Re-insert your SD card
 
-##
+## Configuring the BL Touch
+
+6) 
