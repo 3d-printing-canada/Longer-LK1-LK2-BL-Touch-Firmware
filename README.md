@@ -19,4 +19,8 @@ The installation procedure is fairly simple. Note that this guide is for motherb
 
 ### Software Installation
 
-3) 
+3) Navigate into the folder of the printer you want to flash (LK2 is 220 x 220, LK1 is 300 x 300). In the main folder you will see a 'Project.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
+4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete 'project.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
+5) Re-insert your SD card
+
+##
