@@ -10,3 +10,13 @@ Required are:
 
 ## Procedure 
 
+The installation procedure is fairly simple. Note that this guide is for motherboards that are V0G - You know your motherboard is this type if you look at the serial number on the motherboard and it ends in 'V0G'
+
+### Hardware Installation 
+
+1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
+2) Use the EX-1000 wires to connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram
+
+### Software Installation
+
+3) 
