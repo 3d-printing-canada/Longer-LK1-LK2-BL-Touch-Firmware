@@ -8,6 +8,9 @@ Required are:
 - EX-1000 Extension Cable (For Longer LK2 only): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
 - BL Touch 3D Printed Mount (Uploaded to this repository, but here is the Author): https://www.thingiverse.com/thing:3526108
 
+NOTE: Longer LK2 will require a longer wire. I would suggest the XD-1800 cables. The Z endstop connector will need to be modified for this printer with some clippers to fit in the two pin slot on the motherboard. 
+https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
+
 ## Procedure 
 
 The installation procedure is fairly simple. Note that this guide is for motherboards that are V0G - You know your motherboard is this type if you look at the serial number on the motherboard and it ends in 'V0G'
@@ -15,9 +18,9 @@ The installation procedure is fairly simple. Note that this guide is for motherb
 ### Hardware Installation 
 
 1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
-2) Use the EX-1000 wires (For Longer LK2 only) to connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram.
+2) Connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram.
 
-NOTE: The EX-1000 wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor, or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. 
+NOTE: The extension wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor (for the LK2 only), or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. 
 
 ### Software Installation
 
