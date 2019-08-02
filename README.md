@@ -5,7 +5,7 @@ In this guide we'll show you how to install and upload firmware and hardware for
 Required are: 
 
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
-- EX-1000 Extension Cable: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
+- EX-1000 Extension Cable (For Longer LK2 only): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
 - BL Touch 3D Printed Mount (Uploaded to this repository, but here is the Author): https://www.thingiverse.com/thing:3526108
 
 ## Procedure 
@@ -15,7 +15,9 @@ The installation procedure is fairly simple. Note that this guide is for motherb
 ### Hardware Installation 
 
 1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
-2) Use the EX-1000 wires to connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram
+2) Use the EX-1000 wires (For Longer LK2 only) to connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram.
+
+NOTE: The EX-1000 wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor, or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. 
 
 ### Software Installation
 
@@ -24,5 +26,19 @@ The installation procedure is fairly simple. Note that this guide is for motherb
 5) Re-insert your SD card
 
 ## Configuring the BL Touch
+NOTES:
+i) To navigate to a previous menu, you have to scroll to the top of your current menu and press the topmost option 
+ii) The EEPROM data for the Z probe offset is stored on the SD card. If you start the printer without the SD card in it, that setting will not load properly. Always start your printer with the SD card in it. 
 
-6) 
+
+6) Turn on your printer. You will notice you have three controls: two blue navigation arrows and a red select button. 
+7) Press the select button and use the arrows to nativage to 'Temperature'.
+8) Select 'Preheat PLA' from the list, then 'Preheat PLA' from the next menu. This will preheat the printer.
+9) Press the select button and use the arrows to navigate to 'Motion'.
+10) Select 'Auto Home'. The printer should home and end up in the center of the bed.
+11) In the 'Motion' menu, select Move Axis > Move Z > 10mm. Move the axis down until it is at +000.0 mm. 
+12) Navigate to the main menu. Go to Configuration > Probe Z offset
+13) Put a piece of paper under the nozzle. Move it back and fourth continuously. Press the blue down button and the gantry will slowly start to move down. You may keep your finger on the button. 
+14) Once the nozzle grips the paper enough that it makes a little resistance, but the paper can still move, press the red select button. Scroll down in the 'Configuration' menu until you reach 'Store Settings'. Select that a couple times just to be sure. You're done! 
+
+
