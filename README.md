@@ -15,6 +15,11 @@ https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antcl
 
 The installation procedure is fairly simple. Note that this guide is for motherboards that are V0G - You know your motherboard is this type if you look at the serial number on the motherboard and it ends in 'V0G'
 
+## Configuring Cura
+
+Cura configuration is the same as the Ender 3 cura config - please refer to our video below for the procedure: 
+https://youtu.be/dRgWrepDUBE?t=1316
+
 ### Hardware Installation 
 
 1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
