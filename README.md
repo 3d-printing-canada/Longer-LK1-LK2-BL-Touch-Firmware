@@ -1,8 +1,5 @@
 # Longer-LK1-LK2-BL-Touch-Firmware
-In this guide we'll show you how to install and upload firmware and hardware for your BL touch on the Longer LK1/LK2
-
-### UPDATE 12-08-19
-The standard (non BL touch) firmwares have been uploaded. Just like the BL touch versions, find the Project.bin file in the main Marlin folder and put that on your SD card for flashing. 
+In this guide we'll show you how to install and upload firmware and hardware for your BL touch on the Longer LK1/LK2. The standard (non BL touch) firmwares have also been uploaded. 
 
 ## Bill Of Materials 
 ### For Longer LK2 / Alphawise U30 
