@@ -5,8 +5,8 @@ In this guide we'll show you how to install and upload firmware and hardware for
 The standard (non BL touch) firmwares have been uploaded. Just like the BL touch versions, find the Project.bin file in the main Marlin folder and put that on your SD card for flashing. 
 
 ## Bill Of Materials 
-Required are: 
-
+### For Longer LK2 / Alphawise U30 
+- Longer LK2 OR Alphawise U30 with V0G Motherboard / Connector (Please see the VOG Motherboard image Above to confirm that you have the correct board)
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
 - EX-1000 Extension Cable (For Longer LK2 only): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
 - BL Touch 3D Printed Mount (Uploaded to this repository, but here is the Author): https://www.thingiverse.com/thing:3526108
