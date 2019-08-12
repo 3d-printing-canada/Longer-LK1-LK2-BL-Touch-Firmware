@@ -34,7 +34,7 @@ https://youtu.be/dRgWrepDUBE?t=1316
 
 NOTE: The extension wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor (for the LK2 only), or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. 
 
-### Software Installation
+### Software Installation (For Standard & BL Touch Firmwares)
 
 3) Navigate into the folder of the printer you want to flash (LK2 is 220 x 220, LK1 is 300 x 300). In the main folder you will see a 'Project.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
 4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete 'project.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
