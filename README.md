@@ -14,7 +14,11 @@ The standard (non BL touch) firmwares have been uploaded. Just like the BL touch
 BUY THE COMPLETE KIT: https://3dprintingcanada.com/products/longer-lk2-alfawise-u30-bl-touch-kit
 This kit comes with everything you need for the modification, including a pre-soldered extension cable with integrated resistor
 
-NOTE: Longer LK2 will require a longer wire. I would suggest the XD-1800 cables. The Z endstop connector will need to be modified for this printer with some clippers to fit in the two pin slot on the motherboard. 
+### For Longer LK1 / Alphawise U20 
+
+COMING SOON
+
+NOTE: Longer LK1 will require a longer wire. I would suggest the XD-1800 cables. The Z endstop connector will need to be modified for this printer with some clippers to fit in the two pin slot on the motherboard.
 https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
 
 ## Procedure 
