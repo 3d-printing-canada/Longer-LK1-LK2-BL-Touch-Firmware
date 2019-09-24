@@ -22,11 +22,21 @@ This kit comes with everything you need for the modification, including a pre-so
 
 # Hardware Installation 
 
+### Requirements for the V0G board
+The extension wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor (for the LK2 only), or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. I do this by cutting the  red and orange wires about 10cm from the connector at the same place, stripping the ends, and then soldering both red ends and both orange ends to either end of the resistor. Heat shrink to protect the connections. 
 
+### Requirements for the V08, V07 and V06 boards
+The following modifications must be made for the VO8, V07 and V06 boards: 
+
+1) Using your clippers you must clip off the unused 3rd pin of the 3 pin JST-XH (white) connector for the Z probe min signal (if using the 1800mm cables). That will allow you to insert the connector into the right slot when interfacing the BL touch on the motherboar.
+2) Remove the red (+5V) wire from the black 3 pin JST connector, put the brown and orange ones together, and then clip off the unused 3rd pin on the black JST connector to make a 2 pin (or use one of the blank 2 pin connectors that come with the BL touch). 
+3) Remove / desolder capacitor C29 on the motherboard as marked in the wiring diagram - this can be done with a soldering iron or very carefully by twisting it off with needle nose pliers. 
+4) Solder the red +5V wire of the BL touch to the D7 capacitor as shown on the wiring diagram. 
+
+### Hardware Installation Procedure 
 1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
-2) Connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram.
-
-NOTE: The extension wires must have a 1K 1/8th watt resistor bridging the positive (red) and signal (orange) wires at the motherboard connector for the BL touch (also shown in the wiring diagram). 3D Printing Canada sells the wire pre-soldered with a resistor (for the LK2 only), or you may try it yourself without soldering by sticking one end of the resistor in the top of the connector for each of the wires, securing it with tape. Soldering it to the wires is the best option. 
+2) Connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram. 
+3) Carefully route the BL touch wires through the existing cable management system for the hotend wires.
 
 ### Software Installation (For Standard & BL Touch Firmwares)
 
