@@ -2,10 +2,10 @@
 In this guide we'll show you how to install and upload firmware and hardware for your BL touch on the Longer LK1/LK2. The standard (non BL touch) firmwares have also been uploaded. There are a couple variations of these printers, so there are some important points we need to note to do the conversion successfully: 
 
 ### VOG Vs V08, V07, V06 Motherboards 
+The V0G Style motherboard have a handy little connector you can use to plug the BL touch into - not so on the V08 and previous boards. To determine the style of motherboard in your machine, compare it to the images in this github identifying each board. You will have to use the proper firmware for each board, so make sure that you select the correct firmware for both your board type and printer type.  
 
 
-
-## Bill Of Materials 
+# Bill Of Materials 
 ### For Longer LK2 / Alphawise U30 
 - Longer LK2 OR Alphawise U30 with V0G Motherboard / Connector (Please see the VOG Motherboard image Above to confirm that you have the correct board)
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
@@ -17,21 +17,11 @@ This kit comes with everything you need for the modification, including a pre-so
 
 ### For Longer LK1 / Alphawise U20 
 
-COMING SOON
+- BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
+- SM-XD-1800 Cables https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
 
-NOTE: Longer LK1 will require a longer wire. I would suggest the XD-1800 cables. The Z endstop connector will need to be modified for this printer with some clippers to fit in the two pin slot on the motherboard.
-https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
+# Hardware Installation 
 
-## Procedure 
-
-The installation procedure is fairly simple. Note that this guide is for motherboards that are V0G - You know your motherboard is this type if you look at the serial number on the motherboard and it ends in 'V0G'
-
-## Configuring Cura
-
-Cura configuration is the same as the Ender 3 cura config - please refer to our video below for the procedure: 
-https://youtu.be/dRgWrepDUBE?t=1316
-
-### Hardware Installation 
 
 1) Print and mount your BL touch, no springs required, using the 3D printed Mount. 
 2) Connect your BL touch leads to the correct pins on the motherboard as indicated in the wiring diagram.
@@ -60,4 +50,7 @@ ii) The EEPROM data for the Z probe offset is stored on the SD card. If you star
 13) Put a piece of paper under the nozzle. Move it back and fourth continuously. Press the blue down button and the gantry will slowly start to move down. You may keep your finger on the button. 
 14) Once the nozzle grips the paper enough that it makes a little resistance, but the paper can still move, press the red select button. Scroll down in the 'Configuration' menu until you reach 'Store Settings'. Select that a couple times just to be sure. You're done! 
 
+## Configuring Cura
 
+Cura configuration is the same as the Ender 3 cura config - please refer to our video below for the procedure: 
+https://youtu.be/dRgWrepDUBE?t=1316
