@@ -39,9 +39,8 @@ The following modifications must be made for the VO8, V07 and V06 boards:
 3) Carefully route the BL touch wires through the existing cable management system for the hotend wires.
 
 ### Software Installation (For Standard & BL Touch Firmwares)
-
-3) Navigate into the folder of the printer you want to flash (LK2 is 220 x 220, LK1 is 300 x 300). In the main folder you will see a 'Project.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
-4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete 'project.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
+3) Navigate into the folder of the printer you want to flash (LK2 is 220 x 220, LK1 is 300 x 300). In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
+4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
 5) Re-insert your SD card
 
 ## Configuring the BL Touch
@@ -64,3 +63,5 @@ ii) The EEPROM data for the Z probe offset is stored on the SD card. If you star
 
 Cura configuration is the same as the Ender 3 cura config - please refer to our video below for the procedure: 
 https://youtu.be/dRgWrepDUBE?t=1316
+
+Please note: The Ender 3 configuration will work for the LK2, but for the LK1 you should select the "CR-10" default profile and add a G29 to it as per the instructions in the Ender 3 cura config video above. 
