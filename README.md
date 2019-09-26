@@ -8,16 +8,16 @@ The V0G Style motherboard have a handy little connector you can use to plug the 
 
 
 # Bill Of Materials 
-### For Longer LK2 / Alphawise U30 
-- Longer LK2 OR Alphawise U30 with V0G Motherboard / Connector (Please see the VOG Motherboard image Above to confirm that you have the correct board)
+### For Longer LK2 / Alfawise U30 
+- Longer LK2 OR Alfawise U30 with V0G Motherboard / Connector (Please see the VOG Motherboard image Above to confirm that you have the correct board)
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
-- EX-1000 Extension Cable (For Longer LK2 only): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
+- EX-1000 Extension Cable (For Longer LK2 / Alfawise U30 V0G MOTHERBOARD ONLY): https://3dprintingcanada.com/products/genuine-antclabs-bltouch-extension-cables
 - BL Touch 3D Printed Mount (Uploaded to this repository, but here is the Author): https://www.thingiverse.com/thing:3526108
 
 BUY THE COMPLETE KIT: https://3dprintingcanada.com/products/longer-lk2-alfawise-u30-bl-touch-kit
 This kit comes with everything you need for the modification, including a pre-soldered extension cable with integrated resistor
 
-### For Longer LK1 / Alphawise U20 
+### For Longer LK1 / Alfawise U20 
 
 - BL touch: https://3dprintingcanada.com/products/genuine-antclabs-bltouch-sensor
 - SM-XD-1800 Cables https://3dprintingcanada.com/collections/antclabs/products/copy-of-genuine-antclabs-bltouch-extension-cables-sm-xd-1800
