@@ -1102,9 +1102,9 @@
 // @section machine
 
 #if ENABLED(U30)
-#define X_BED_SIZE 220
-#define Y_BED_SIZE 220
-#define Z_MACHINE_MAX 250
+#define X_BED_SIZE 300
+#define Y_BED_SIZE 300
+#define Z_MACHINE_MAX 400
 #endif
 
 #if ENABLED(U20)
@@ -1114,9 +1114,9 @@
 #endif
 
 #if ENABLED(U20_PLUS)
-#define X_BED_SIZE 400
-#define Y_BED_SIZE 400
-#define Z_MACHINE_MAX 500
+#define X_BED_SIZE 300
+#define Y_BED_SIZE 300
+#define Z_MACHINE_MAX 400
 #endif
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
