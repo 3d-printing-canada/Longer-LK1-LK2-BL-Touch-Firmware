@@ -41,25 +41,24 @@ The following modifications must be made for the VO8, V07 and V06 boards:
 3) Carefully route the BL touch wires through the existing cable management system for the hotend wires.
 
 ### Software Installation (For Standard & BL Touch Firmwares)
-3) Navigate into the folder of the printer you want to flash (LK2 is 220 x 220, LK1 is 300 x 300). In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
-4) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
-5) Re-insert your SD card
+1) In the main folder you will see a '####_firmware.bin' file. Copy that folder onto your SD card and insert it into the printer. Turn the printer on and watch it upload. 
+2) When you see the main info screen for marlin appear, turn the printer off. Insert your SD card into your computer again and delete '####_firmware.bin' (failure to do this will mean the firmware will reflash every time). IMPORTANT: You will notice there is now an EEPROM.dat file. DO NOT delete this - as it serves as the Eeprom for your printer (the memory).
+3) Re-insert your SD card
 
 ## Configuring the BL Touch
 NOTES:
 i) To navigate to a previous menu, you have to scroll to the top of your current menu and press the topmost option 
 ii) The EEPROM data for the Z probe offset is stored on the SD card. If you start the printer without the SD card in it, that setting will not load properly. Always start your printer with the SD card in it. 
 
-
-6) Turn on your printer. You will notice you have three controls: two blue navigation arrows and a red select button. 
-7) Press the select button and use the arrows to nativage to 'Temperature'.
-8) Select 'Preheat PLA' from the list, then 'Preheat PLA' from the next menu. This will preheat the printer.
-9) Press the select button and use the arrows to navigate to 'Motion'.
-10) Select 'Auto Home'. The printer should home and end up in the center of the bed.
-11) In the 'Motion' menu, select Move Axis > Move Z > 10mm. Move the axis down until it is at +000.0 mm. 
-12) Navigate to the main menu. Go to Configuration > Probe Z offset
-13) Put a piece of paper under the nozzle. Move it back and fourth continuously. Press the blue down button and the gantry will slowly start to move down. You may keep your finger on the button. 
-14) Once the nozzle grips the paper enough that it makes a little resistance, but the paper can still move, press the red select button. Scroll down in the 'Configuration' menu until you reach 'Store Settings'. Select that a couple times just to be sure. You're done! 
+1) Turn on your printer. You will notice you have three controls: two blue navigation arrows and a red select button. 
+2) Press the select button and use the arrows to nativage to 'Temperature'.
+3) Select 'Preheat PLA' from the list, then 'Preheat PLA' from the next menu. This will preheat the printer.
+4) Press the select button and use the arrows to navigate to 'Motion'.
+5) Select 'Auto Home'. The printer should home and end up in the center of the bed.
+6) In the 'Motion' menu, select Move Axis > Move Z > 10mm. Move the axis down until it is at +000.0 mm. 
+7) Navigate to the main menu. Go to Configuration > Probe Z offset
+8) Put a piece of paper under the nozzle. Move it back and fourth continuously. Press the blue down button and the gantry will slowly start to move down. You may keep your finger on the button. 
+9) Once the nozzle grips the paper enough that it makes a little resistance, but the paper can still move, press the red select button. Scroll down in the 'Configuration' menu until you reach 'Store Settings'. Select that a couple times just to be sure. You're done! 
 
 ## Configuring Cura
 
